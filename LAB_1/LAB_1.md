@@ -16,7 +16,10 @@ Reference: https://spark.apache.org/docs/latest/api/python/getting_started/insta
 ```conda install -c conda-forge pyspark notebook pandas pyarrow```
 
 ### Use environment.yml 
-```conda env create -f environment.yml``
+``conda env create -f environment.yml``
+
+### delete conda environment
+``conda env remove --name pyspark_env``
 
 ## select conda env in VS Code
 

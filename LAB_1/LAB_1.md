@@ -32,3 +32,5 @@ In the Command Palette, type Python: Select Interpreter and select it.
 
 # Run quick starter
 Download [quickstart_df.ipynb](quickstart_df.ipynb) and try running it.
+
+Original notebook downloaded from https://spark.apache.org/docs/latest/api/python/getting_started/index.html

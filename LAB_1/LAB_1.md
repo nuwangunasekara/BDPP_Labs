@@ -1,36 +1,58 @@
-# BigDataCourse
-## Pre-requesters 
-Conda 
-https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
-https://www.anaconda.com/docs/getting-started/miniconda/main
+# BigDataCourse (LAB 1: Installation using Conda inside VS Code)
 
-## Overview
-Reference https://spark.apache.org/docs/latest/api/python/index.html
-## PySpark Installation
-Reference: https://spark.apache.org/docs/latest/api/python/getting_started/install.html
-### create cond environment and install Apache Spark
-#### Create conda environment
-```conda create -n pyspark_env python=3.8 pip```
-#### Activate conda environment
-```conda activate pyspark_env```
-#### Check Java version inside the conda environment
-``java -version``
-##### If 8 > JDK > 17, Install JDK 17
-``conda install -c conda-forge openjdk=17``
-##### Check Java version inside the conda environment again
-``java -version``
-#### Install pyspark pandas and pyarrow
-``pip install pyspark pandas pyarrow``
-### delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
-``conda env remove --name pyspark_env``
+## Pre-requesters
+- This Lab is done in VS code
 
-## select conda env in VS Code
+## Create VS Code Project Folder using file explorer or command line 
 
+## Open Project in VS Code
+
+## Create conda environment
 Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) to open the Command Palette.
 
-In the Command Palette, type Python: Select Interpreter and select it.
+In the Command Palette, type Python: Create Environment and select it.
 
-# Run quick starter
+![](Create_Env_1.png)
+
+Select conda environment
+![](Create_Env_2.png)
+
+Select Python 3.8
+![](Create_Env_3.png)
+
+You should see something similar at the bottom right corner
+![](Create_Env_4.png)
+
+
+## Open VS Code Terminal and check currently activated conda environment
+![](Check_Env_1.png)
+![](Check_Env_2.png)
+
+`conda env list` will list available environments and highlight (*) the current activated one
+
+![](Check_Env_3.png)
+
+## Install Apache Spark
+### Check Java version inside the conda environment
+``java -version``
+#### If 8 > JDK > 17, Install JDK 17
+``conda install -c conda-forge openjdk=17``
+#### Check Java version inside the conda environment again
+``java -version``
+### Install pyspark pandas and pyarrow
+``pip install pyspark pandas pyarrow``
+
+## delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
+``conda env remove --name <env name>``
+
+## Run quick starter
 Download [quickstart_df.ipynb](quickstart_df.ipynb) and try running it.
 
-Original notebook downloaded from https://spark.apache.org/docs/latest/api/python/getting_started/index.html
+# References
+## Conda 
+- https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+- https://www.anaconda.com/docs/getting-started/miniconda/main
+
+## PySpark
+- Overview https://spark.apache.org/docs/latest/api/python/index.html
+- Installation https://spark.apache.org/docs/latest/api/python/getting_started/install.html

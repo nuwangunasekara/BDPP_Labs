@@ -1,4 +1,4 @@
-# BigDataCourse (LAB 1: Installation using Conda inside VS Code)
+# Big Data Parallel Programming Course (LAB 1: Installation using Conda inside VS Code)
 
 ## Pre-requesters
 - This Lab is done in VS code

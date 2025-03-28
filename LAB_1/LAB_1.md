@@ -5,7 +5,7 @@
 
 ## Create VS Code Project Folder using file explorer or command line 
 
-## Open Project in VS Code
+## Open Project/Folder in VS Code
 
 ## Create conda environment
 Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) to open the Command Palette.
@@ -22,10 +22,11 @@ Select Python 3.8
 
 You should see something similar at the bottom right corner
 ![](Create_Env_4.png)
-
+![Conda_Install_Success.png](Conda_Install_Success.png)
 
 ## Open VS Code Terminal and check currently activated conda environment
-![](Check_Env_1.png)
+![Open_Terminal.png](Open_Terminal.png)
+
 ![](Check_Env_2.png)
 
 `conda env list` will list available environments and highlight (*) the current activated one
@@ -35,14 +36,19 @@ You should see something similar at the bottom right corner
 ## Install Apache Spark
 ### Check Java version inside the conda environment
 ``java -version``
+
+If Java is not installed in your system you may get a similar error like this:
+![Java_Not_Found.png](Java_Not_Found.png)
 #### If 8 > JDK > 17, Install JDK 17
 ``conda install -c conda-forge openjdk=17``
 #### Check Java version inside the conda environment again
 ``java -version``
+
+![Java_Install_Success.png](Java_Install_Success.png)
 ### Install pyspark pandas and pyarrow
 ``pip install pyspark pandas pyarrow``
 
-## delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
+## ATTENTION: command to delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
 ``conda env remove --name <env name>``
 
 ## Run quick starter

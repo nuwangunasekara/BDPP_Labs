@@ -1,11 +1,11 @@
-# Big Data Parallel Programming Course (LAB 1: Installation using Conda inside VS Code)
+# Big Data Parallel Programming Course (LAB 1: Installation using Conda inside Visual Studio Code)
 
 ## Pre-requesters
 - This Lab is done in VS code
 
-## Create VS Code Project Folder using file explorer or command line 
+## Create Visual Studio Code Project Folder using file explorer or command line 
 
-## Open Project/Folder in VS Code
+## Open Project/Folder in Visual Studio Code
 
 ## Create conda environment
 Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) to open the Command Palette.
@@ -24,7 +24,7 @@ You should see something similar at the bottom right corner
 ![](Create_Env_4.png)
 ![Conda_Install_Success.png](Conda_Install_Success.png)
 
-## Open VS Code Terminal and check currently activated conda environment
+## Open Visual Studio Code Terminal and check currently activated conda environment
 ![Open_Terminal.png](Open_Terminal.png)
 
 ![](Check_Env_2.png)

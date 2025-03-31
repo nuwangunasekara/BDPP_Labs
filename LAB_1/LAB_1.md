@@ -51,8 +51,12 @@ If Java is not installed in your system you may get a similar error like this:
 ## ATTENTION: command to delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
 ``conda env remove --name <env name>``
 
-## Run quick starter
-Download [quickstart_df.ipynb](quickstart_df.ipynb) and try running it.
+## Run Lab1 notebook and submit it via Black Board
+
+- Download [Lab1_NameSurname.ipynb](Lab1_NameSurname.ipynb).
+- Run the notebook. 
+- Save the notebook
+- Submit the run notebook through Black Board.
 
 # References
 ## Conda 

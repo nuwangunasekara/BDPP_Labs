@@ -46,7 +46,7 @@ If Java is not installed in your system you may get a similar error like this:
 
 ![Java_Install_Success.png](Java_Install_Success.png)
 ### Install pyspark pandas and pyarrow
-``pip install pyspark pandas pyarrow``
+``pip install pyspark pandas pyarrow notebook``
 
 ## ATTENTION: command to delete conda environment (ONLY IF YOU HAVE MADE A MISTAKE)
 ``conda env remove --name <env name>``

@@ -12,6 +12,8 @@ Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac) to open the Command Pale
 
 In the Command Palette, type Python: Create Environment and select it.
 
+**If don't have conda, install it using** https://www.anaconda.com/docs/getting-started/miniconda/main
+
 ![](Create_Env_1.png)
 
 Select conda environment
